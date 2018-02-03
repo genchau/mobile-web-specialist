@@ -22,7 +22,7 @@ Make sure the `Update on reload` option is selected in the Chrome developer tool
   ```js
   self.addEventListener('fetch', function(event) {
     event.respondWith(
-      new Reponse('<p class="a-winner-is-me">Responding from the Service Worker with HTML.</p>', {
+      new Response('<p class="a-winner-is-me">Responding from the Service Worker with HTML.</p>', {
         headers: {
           'Content-Type': 'text/html'
         }
