@@ -43,8 +43,8 @@ self.addEventListener('fetch', function(event) {
         foo: 'bar'
       }
     })
-  )
-})
+  );
+});
 ```
 
 Refresh the page and look at the `Network` tab in Chrome developer tools, take a look at the `Response Headers` and you will see that `foo: bar` was returned as part of the `Response Headers`.
